@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express();
 
-app.set('port', process.env.PORT || 3076);
+app.set('port', process.env.PORT || 3070);
 
 app.use('/test', (req, res) => {
     res.send('asldfjliasjdfajsdfjalisdfj')
