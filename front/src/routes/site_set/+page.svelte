@@ -670,7 +670,7 @@
     <button
         class="btn btn-secondary btn-sm"
         on:click={() => {
-            window.open(`https://${getId}.adpeak.kr`, "width=600,height=800");
+            window.open(`https://${getId}.withby.kr`, "width=600,height=800");
         }}
     >
         미리보기
