@@ -13,8 +13,8 @@ export const load = (async ({ url }) => {
     let ld_json_menus = {}
     let allData = {}
 
-
-
+    console.log(back_api);
+    
 
     try {
         const res = await axios.post(`${back_api}/load_site_set`, { getId })
